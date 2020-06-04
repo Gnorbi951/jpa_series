@@ -23,7 +23,7 @@ public class Series {
 
     private String name;
     private LocalDate releaseDate;
-    private Integer averageRating;
+    private Float averageRating;
 
 
 }
