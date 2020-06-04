@@ -14,13 +14,14 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @Builder
 @Entity
-public class Season {
+public class Episode {
 
     @Id
     @GeneratedValue
     private Long Id;
 
+    private String title;
     private Integer rating;
-    private Integer numberOfEpisodes;
+    private Integer length; // Provide this in minutes
 
 }
